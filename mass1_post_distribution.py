@@ -18,6 +18,6 @@ if json_file_path is None:
 else:
     data = json_file_path
 
-# Call the function to graph the luminosity distance
+# Call the function to graph the mass of the first object
 graph_posterior_distribution(data, 'mass_1')
 
