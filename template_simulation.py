@@ -105,7 +105,7 @@ for ifo in interferometers:
             ifo.power_spectral_density = bilby.gw.detector.PowerSpectralDensity(asd_file=fn)
 
 
-# INJECTING SIGNAL TO INTERFEROMENTERS
+# INJECTING SIGNAL TO INTERFEROMETERS
 interferometers.set_strain_data_from_zero_noise(sampling_frequency, duration, start_time=injection_parameters[
     'geocent_time'] - duration + 2.)
 interferometers.inject_signal(
